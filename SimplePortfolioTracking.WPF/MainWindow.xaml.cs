@@ -50,7 +50,19 @@ namespace SimplePortfolioTracking.WPF
             }));
 
         }
+        
+        private void btnSave_Click(object sender, RoutedEventArgs e)
+        {
+            List<Trade> list = (List<Trade>)this.dgPortfolio.ItemsSource;
 
+            Portfolio portfolio = new Portfolio();
+            portfolio.Trades = list;
+
+            PortfolioBL bl = new PortfolioBL();
+            bl.WritePortfolio(portfolio);
+
+            Task.Factory.StartNew(() => BindPnLReport(portfolio));
+        }
     }
 
 }

@@ -24,7 +24,7 @@ namespace SimplePortfolioTracking.BusinessLogic
                 Stock stock = new Stock();
 
                 stock.Ticker = distinctRow.Ticker;
-                stock.Quantity = portfolio.Trades.Where(t => t.Ticker == stock.Ticker).Sum(t => t.Quantity);
+                stock.Quantity = portfolio.Trades.Where(t => t.Ticker == stock.Ticker).Sum(t => t.Quantity * (t.BuySell == "Buy" ? 1 : -1));
                 stock.Cost = portfolio.Trades.Where(t => t.Ticker == stock.Ticker).Sum(t => t.Cost);
                 stock.AsOfDate = currentQuote.LatestTradingDay;
                 stock.PreClose = currentQuote.PreviousClose;

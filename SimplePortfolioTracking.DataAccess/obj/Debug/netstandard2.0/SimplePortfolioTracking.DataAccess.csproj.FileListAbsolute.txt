@@ -6,3 +6,4 @@ C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.DataAccess\obj
 C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.DataAccess\obj\Debug\netstandard2.0\SimplePortfolioTracking.DataAccess.csproj.CoreCompileInputs.cache
 C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.DataAccess\obj\Debug\netstandard2.0\SimplePortfolioTracking.DataAccess.dll
 C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.DataAccess\obj\Debug\netstandard2.0\SimplePortfolioTracking.DataAccess.pdb
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.DataAccess\obj\Debug\netstandard2.0\SimplePortfolioTracking.DataAccess.csprojAssemblyReference.cache

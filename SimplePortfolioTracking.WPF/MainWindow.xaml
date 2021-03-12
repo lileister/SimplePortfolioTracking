@@ -24,7 +24,10 @@
         </DockPanel>
 
         <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
-            <Label>Trades in Portfolio</Label>
+            <DockPanel>
+                <Label>Trades in Portfolio</Label>
+                <Button Name="btnSave" Width="100" HorizontalAlignment="Right" Click="btnSave_Click">Save</Button>
+            </DockPanel>
             <DataGrid Name="dgPortfolio" Height="300" AutoGenerateColumns="False">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Ticker" Binding="{Binding Ticker}"/>
