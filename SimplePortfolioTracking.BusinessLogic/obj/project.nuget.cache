@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Z3PBGisKbA6otw31O4PniMzh+ED8qw0y/TXl/2aehety837a8647cl35N14gtrdstS1H3SzdL4bUfBKPbvbsg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Learn\\SimplePortfolioTracking\\SimplePortfolioTracking.BusinessLogic\\SimplePortfolioTracking.BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lilei\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lilei\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lilei\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\lilei\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

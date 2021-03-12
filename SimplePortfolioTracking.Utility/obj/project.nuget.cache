@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/1zTN1yktlBfvf6exS4r4BtHPCaO68YjRB1OU9wi8Mpefkgdf+M9vyqrvb1tJGVYJKSFhWYdTmAwcyXqgkTuCg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Learn\\SimplePortfolioTracking\\SimplePortfolioTracking.Utility\\SimplePortfolioTracking.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lilei\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lilei\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

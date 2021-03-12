@@ -1,0 +1,14 @@
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\bin\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.deps.json
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\bin\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.dll
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\bin\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.pdb
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\bin\Debug\netstandard2.0\SimplePortfolioTracking.DataAccess.dll
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\bin\Debug\netstandard2.0\SimplePortfolioTracking.Utility.dll
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\bin\Debug\netstandard2.0\SimplePortfolioTracking.DataAccess.pdb
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\bin\Debug\netstandard2.0\SimplePortfolioTracking.Utility.pdb
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\obj\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.csprojAssemblyReference.cache
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\obj\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.AssemblyInfoInputs.cache
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\obj\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.AssemblyInfo.cs
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\obj\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\obj\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.csproj.CopyComplete
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\obj\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.dll
+C:\Projects\Learn\SimplePortfolioTracking\SimplePortfolioTracking.BusinessLogic\obj\Debug\netstandard2.0\SimplePortfolioTracking.BusinessLogic.pdb

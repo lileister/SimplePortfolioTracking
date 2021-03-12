@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimplePortfolioTracking.BusinessLogic\SimplePortfolioTracking.BusinessLogic.csproj" />
+    <ProjectReference Include="..\SimplePortfolioTracking.DataAccess\SimplePortfolioTracking.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Portfolio\Portfolio.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

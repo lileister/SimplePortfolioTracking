@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NuY3jogi6g1tUHw50QRAv5m8eh15I2Y//DaFbgu4nUMmaBHhfx793vTcRrrsUnKuvg8m6l3xrKbuLSk9olWDZw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Learn\\SimplePortfolioTracking\\SimplePortfolioTracking.DataAccess\\SimplePortfolioTracking.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lilei\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lilei\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lilei\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
