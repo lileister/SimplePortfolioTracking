@@ -41,8 +41,11 @@
         </StackPanel>
         
         <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
-            <Label Content="P&amp;L Report"></Label>
-            <DataGrid Name="dgPnLReport" Height="500" AutoGenerateColumns="False">
+            <DockPanel>
+                <Label Content="P&amp;L Report"></Label>
+                <Label Name="lblLoading" HorizontalAlignment="Right" Foreground="Red">Loading...</Label>
+            </DockPanel>
+            <DataGrid Name="dgPnLReport" Height="500" AutoGenerateColumns="False" IsReadOnly="True">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Ticker" Binding="{Binding Ticker}"/>
                     <DataGridTextColumn Header="As Of Date" Binding="{Binding AsOfDate,StringFormat='dd/MM/yyyy'}"/>

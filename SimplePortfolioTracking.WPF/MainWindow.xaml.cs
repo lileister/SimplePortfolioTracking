@@ -30,7 +30,7 @@ namespace SimplePortfolioTracking.WPF
             Portfolio portfolio = bl.ReadPortfolio();
 
             BindPortfolio(portfolio);
-            Task.Factory.StartNew(() => BindPnLReport(portfolio));
+            BindPnLReport(portfolio);
         }
 
         public void BindPortfolio(Portfolio portfolio)
@@ -40,15 +40,30 @@ namespace SimplePortfolioTracking.WPF
 
         public void BindPnLReport(Portfolio portfolio)
         {
-            PnLReportBL bl = new PnLReportBL();
-            List<Stock> list = bl.GetPnLReportAsync(portfolio).Result;
-
-            Dispatcher.BeginInvoke(new Action(() =>
+            Task.Factory.StartNew(() =>
             {
-                dgPnLReport.ItemsSource = list;
-                dgPnLReport.IsReadOnly = true;
-            }));
+                try
+                {
+                    Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        lblLoading.Visibility = Visibility.Visible;
+                    }));
 
+                    PnLReportBL bl = new PnLReportBL();
+                    List<Stock> list = bl.GetPnLReportAsync(portfolio).Result;
+
+                    Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        dgPnLReport.ItemsSource = list;
+                        lblLoading.Visibility = Visibility.Hidden;
+                    }));
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show( "Error, please contact system administrator!", "Error",MessageBoxButton.OK, MessageBoxImage.Error);
+                    //Write logs here or email to administrator
+                }
+            });
         }
         
         private void btnSave_Click(object sender, RoutedEventArgs e)
@@ -61,7 +76,9 @@ namespace SimplePortfolioTracking.WPF
             PortfolioBL bl = new PortfolioBL();
             bl.WritePortfolio(portfolio);
 
-            Task.Factory.StartNew(() => BindPnLReport(portfolio));
+            BindPnLReport(portfolio);
+
+            MessageBox.Show("Save successfully!", "System Message", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
 

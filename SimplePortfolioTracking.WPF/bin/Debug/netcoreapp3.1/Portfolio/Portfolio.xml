@@ -24,4 +24,12 @@
     <Price>87.82</Price>
     <Cost>13173.00</Cost>
   </Trade>
+  <Trade>
+    <Ticker>GOOG</Ticker>
+    <TradeDate>12/3/2021</TradeDate>
+    <BuySell>Sell</BuySell>
+    <Quantity>10</Quantity>
+    <Price>2114.77</Price>
+    <Cost>21147.70</Cost>
+  </Trade>
 </Portfolio>
